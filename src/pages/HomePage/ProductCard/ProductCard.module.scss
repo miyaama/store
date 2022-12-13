@@ -1,0 +1,34 @@
+.product_button {
+  background-color: rgba(51, 102, 255, 1);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.container {
+  border: 1px solid rgba(207, 207, 207, 1);
+  border-radius: 3px;
+  width: 250px;
+  height: 300px;
+  padding: 29px 11px 15px 11px;
+  box-sizing: border-box;
+
+  img {
+    margin-bottom: 41px;
+    height: 130px;
+    width: 228px;
+  }
+
+  h4 {
+    max-width: 165px;
+    margin-bottom: 13px;
+  }
+
+}
+
+.container_bottom {
+  display: flex;
+  align-items: center;
+}

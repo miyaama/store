@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_left {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: scroll;
+  height: calc(100vh - 81px);
+}
+
+.products {
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 50px 70px;
+  padding: 60px 0;
+  max-width: 890px;
+}

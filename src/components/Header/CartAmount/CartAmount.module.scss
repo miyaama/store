@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: -6px;
+  right: -6px;
+
+  font-size: 10px;
+  font-weight: 400;
+  width: 13px;
+  height: 13px;
+  background: rgba(51, 102, 255, 1);
+  color: white;
+  border-radius: 100%;
+}
