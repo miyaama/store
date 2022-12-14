@@ -1,6 +1,4 @@
-import {
-  useAppSelector as useSelector,
-} from "../../hooks";
+import { useAppSelector as useSelector } from "../../hooks";
 import type { RootState } from "../../store";
 import Header from "../../components/Header";
 import Cart from "../../components/Cart";
@@ -21,7 +19,9 @@ function HomePage() {
             ))}
           </div>
         </div>
-        <Cart />
+        <div className={styles.cart}>
+          <Cart />
+        </div>
       </div>
     </div>
   );

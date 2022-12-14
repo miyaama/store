@@ -3,3 +3,4 @@ export * from "./LogoIcon";
 export * from "./DeleteIcon";
 export * from "./MinusIcon";
 export * from "./PlusIcon";
+export * from "./CloseIcon";

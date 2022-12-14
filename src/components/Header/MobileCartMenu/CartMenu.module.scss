@@ -1,0 +1,25 @@
+.menu {
+  position: absolute;
+  background: white;
+  min-width: 410px;
+  right: -100%;
+  display: none;
+}
+
+.menu_open {
+  top: 80.5px;
+  right: 0;
+  display: block;
+}
+
+.close {
+  position: absolute;
+  top: 29px;
+  right: 29px;
+}
+
+@media (min-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}

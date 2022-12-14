@@ -1,5 +1,6 @@
 .container {
   width: 410px;
+  height: calc(100vh - 81px);
   min-width: 410px;
   border-left: 1px solid rgba(207, 207, 207, 1);
   box-sizing: border-box;

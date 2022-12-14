@@ -7,9 +7,15 @@
 }
 
 body {
-  min-width: 100vh;
   overflow: hidden;
+  position: relative;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    min-width: 100vh;
+  }
 }
 
 h1,
